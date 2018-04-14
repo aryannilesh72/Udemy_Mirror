@@ -25,7 +25,7 @@ class Welcome extends CI_Controller {
         $data = ['session' => $this->session->all_userdata(), 'courses' => $courses];
         $this->load->view('include/header',$data);
 		$this->load->view('index');
-        $this->load->view('signup');
+        $this->load->view('register');
 
 
         $this->load->view('include/footer');
@@ -36,10 +36,6 @@ class Welcome extends CI_Controller {
 	    $this->load->view('include/footer');
 
     }
-    public function register(){
-        $this->load->view('include/header');
-        $this->load->view('signup');
-        $this->load->view('include/footer');
 
     }
-}
+

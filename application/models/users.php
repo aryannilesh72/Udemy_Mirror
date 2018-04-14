@@ -30,5 +30,11 @@ class users extends CI_Model{
         $this->db->where('users', $id);
         $this->db->delete('users');
     }
+    public function get_course(){
+        $q = $this->db->get('course');
+        $result = $q->result();
+        // Returning fetched courses
+        return $result;
+    }
 }
 ?>

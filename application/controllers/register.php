@@ -1,17 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Register extends CI_Controller{
+class register extends CI_Controller{
 
     public function index(){
-
-
-        if($this->input->post('register') === NULL){
-            $this->load->model('users');
-            $this->load->view('include/header');
-            $this->load->view('index');
-            $this->load->view('signup');
-            $this->load->view('include/footer');
-        }
 
         if($this->input->post('register') === 'register'){
             $fname = $this->input->post('fname');
@@ -31,11 +22,12 @@ class Register extends CI_Controller{
                 ];
                 $this->load->model('users');
                 $this->users->insert_user($insert);
-                $data = ['session' => $this->session->all_userdata()];
-                $this->session->set_flashdata('msg', '<div class="alert alert-info">User added successfully.</div>');
+                $courses = $this->users->get_course();
+                $data = ['session' => $this->session->all_userdata(),'courses' => $courses];
+                $this->session->set_flashdata('msg', '<div>Successfully Registered Please Login.</div>');
                 $this->load->view('include/header', $data);
                 $this->load->view('index');
-                $this->load->view('signup');
+
                 $this->load->view('include/footer');
 
             }else{
