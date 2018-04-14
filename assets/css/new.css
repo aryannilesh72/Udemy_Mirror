@@ -1,0 +1,400 @@
+*{
+	
+	border:0px solid black;
+}
+body{
+
+}
+
+#banner2{
+	
+	 background:linear-gradient(#F33939, #ED1F1F, #E70A0A); 
+    background: -webkit-linear-gradient(#F33939, #ED1F1F, #E70A0A); 
+    padding: 15px;  
+
+}
+#divide{
+	font-size:100px;
+	color:grey;
+}
+.search{
+		width:400px;
+		height:40px;
+	
+	border:1px solid red;
+	border-radius:5px;
+}
+.btns{
+	margin-top:10px;
+	width:40px;
+	height:40px;
+	border:1px solid red;
+	background:red;
+	border-radius:5px;
+}
+.btn{
+	margin-top:15px;
+	margin-left:15px;
+	margin-top:5px;
+	height:40px;
+	width:80px;
+}
+.bt{
+	
+	margin-left:15px;
+	margin-top:5px;
+	height:40px;
+	width:80px;
+	
+}
+.btn3{
+	
+	margin-top:15px;
+	margin-left:15px;
+	margin-top:5px;
+	height:50px;
+	width:300px;
+	color:white;
+}
+.btn-primary{
+
+    width:300px;
+}
+.row3{
+	margin: auto; 
+	max-width: 1000px;
+	
+}
+.bb1{
+	background: background:linear-gradient(#F33939, #ED1F1F, #E70A0A); 
+    background: -webkit-linear-gradient(#F33939, #ED1F1F, #E70A0A); 
+	
+}
+.bb2{
+	background: background:linear-gradient(#6F167A, #A727B7, #A727B7); 
+    background: -webkit-linear-gradient(#6F167A, #A727B7, #A727B7); 
+}
+.bb3{
+	background: background:linear-gradient(#4EAFCA, #0B728F, #16647A); 
+    background: -webkit-linear-gradient(#4EAFCA, #0B728F, #16647A); 
+}
+.bb4{
+	
+	width:150px;
+}
+.bb5{
+	
+	width:200px;
+}
+.top{
+	font-size:25px;
+	color:white;
+	
+	
+}
+.offer{
+	font-size:50px;
+	color:white;
+}
+.row1{
+	text-align:center;
+	font-size:20px;
+	color:white;
+	
+}
+.row4{
+	text-align:center;
+	font-size:20px;
+	margin: auto; 
+	
+}
+.ico{
+	font-size:30px;
+	
+}
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+.footer{
+	
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height:50px;
+    background-color:white;
+    color: Grey;
+    text-align: center;
+	border:1px solid grey;
+
+}
+.all{
+	background:#ECE8EC;
+}
+.des{
+	
+	font-size:15px;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/* Full-width input fields */
+.signup {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+/* Set a style for all buttons */
+.sin {
+    background-color: #59b5fa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+.cont{
+    align-content: center;
+}

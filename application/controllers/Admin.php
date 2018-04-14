@@ -1,19 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: aryan
- * Date: 07-04-2018
- * Time: 20:52
- */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Admin extends CI_Controller
-{
-public function index(){
-    $this->load->view('admin/header/header');
+class Admin extends CI_Controller {
 
-    $this->load->view('admin/header/dashboard');
-    $this->load->view('admin/header/sidebar');
-
-    $this->load->view('admin/header/footer');
-}
+	public function index()
+	{
+		if($this->session->userdata('username') !== NULL){
+			if($this->session->userdata('role') !== 'ADMIN'){
+				header("Location: welcome");
+				exit();
+			}else{
+				$data = ['title' => 'ADMIN PANEL :: UDEMY', 'session' => $this->session->all_userdata()];
+				$this->load->view('template/inc/header', $data);
+				$this->load->view('template/index');
+				$this->load->view('template/inc/footer');
+			}
+		}else{
+			header("Location: login");
+		}
+	}
 }
